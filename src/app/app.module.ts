@@ -13,6 +13,7 @@ import { HomePage } from '../pages/home/home';
 import { MainPage } from '../pages/main/main';
 import { GooglePlus } from '@ionic-native/google-plus';
 import { Facebook } from '@ionic-native/facebook';
+import { Dodatkowa2Page } from '../pages/dodatkowa2/dodatkowa2';
 
 var config = {
   apiKey: "AIzaSyCK0TBqUcv_gsNB_wrqQRj89Osv6AxXxBo",
@@ -27,7 +28,8 @@ var config = {
   declarations: [
     MyApp,
     HomePage,
-    MainPage
+    MainPage,
+    Dodatkowa2Page
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ var config = {
   entryComponents: [
     MyApp,
     HomePage,
-    MainPage
+    MainPage,
+    Dodatkowa2Page
   ],
   providers: [
     StatusBar,
